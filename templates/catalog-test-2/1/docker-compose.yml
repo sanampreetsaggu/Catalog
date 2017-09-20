@@ -1,0 +1,31 @@
+advanced-options:
+  image: quay.io/rancher/authorized
+  tty: true
+  ports:
+  - 80:8080/tcp
+  dns:
+  - 1.1.1.1
+  entrypoint:
+  - /entrypoint
+  volumes:
+  - tani:/taniabc
+  stdin_open: true
+  volume_driver: volumedriver
+  dns_search:
+  - rancher.com
+  domainname: domainname
+  environment:
+    foo: bar
+  command:
+  - /command
+  user: user
+  external_links:
+  - Default/simpleservice:aaa
+  labels:
+    io.rancher.container.pull_image: always
+    io.rancher.container.start_once: ‘true’
+    io.rancher.container.requested_ip: 10.40.1.1
+    io.rancher.container.hostname_override: container_name
+    test.string: ${TEST_STRING}
+    test.multiline: ${TEST_MULTILINE}
+

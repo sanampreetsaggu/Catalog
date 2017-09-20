@@ -1,0 +1,4 @@
+name: Config Test 3
+description: Description in Config.yml = Config test 3 - Category = TEST
+version: 1.0
+category: TEST

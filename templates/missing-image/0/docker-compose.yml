@@ -1,0 +1,4 @@
+missing-image:
+  image: nginx
+  tty: true
+  stdin_open: true
