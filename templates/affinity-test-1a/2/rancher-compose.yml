@@ -1,6 +1,6 @@
 .catalog:
   name: "Service Affinity rule check"
-
+  
   description: Description from rancher compose
   minimum_rancher_version: v0.46.0
 servicerelyingonlable:
