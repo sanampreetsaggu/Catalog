@@ -7,7 +7,7 @@ servicerelyingonlable:
   log_opt: {}
   image: ubuntu:14.04.3
   stdin_open: true
-  io.rancher.scheduler.global: 'true'
+ 
     io.rancher.container.pull_image: always
   tty: true
   image: nginx
