@@ -2,7 +2,7 @@
   name: "Service Affinity rule check"
   version: 1.0.0
   description: Description in the rancher compose.
-  minimum_rancher_version: v0.46.0
+  minimum_rancher_version: v1.6.10
 servicerelyingonlable:
   scale: 1
 Service1withlabel:
