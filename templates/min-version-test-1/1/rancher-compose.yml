@@ -2,7 +2,7 @@
   name: "Minimum Version Test - 1"
   version: "2.0.0"
   description: "More than 9 versions"
-  minimum_rancher_version: v1.5.0-pre4-rc3
+  minimum_rancher_version: v1.6.10
   questions:
     - variable: "TEST_STRING"
       label: "String"
